@@ -17,7 +17,7 @@ public class probEight
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter number of elements");
 		int queueSize= scan.nextInt();
-		System.out.println("Enter input Queue elements");
+		System.out.println("Enter input Queue element");
 		Deque<Integer> Q = new ArrayDeque<>();
 		for(int i=0;i<queueSize;i++)
 		{
